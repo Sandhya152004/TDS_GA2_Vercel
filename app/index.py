@@ -36,3 +36,4 @@ class handler(BaseHTTPRequestHandler):
 
         # Send the JSON response
         self.wfile.write(json.dumps(result).encode('utf-8'))
+        return
